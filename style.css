@@ -1,0 +1,29 @@
+html, body {
+    height: 100%;}
+body {
+    margin: 0px;
+    padding:0px;
+    background: linear-gradient(90deg, #b92b27, #1565C0);
+    background-size:200% 200%;
+    animation: fff 15s ease infinite alternate;
+}
+@keyframes fff {
+    0% {
+        background-position:0 25%;
+    }
+    25% {
+        background-position:25% 50%;
+    }
+   50% {
+       background-position: 50% 
+        75%;
+   }
+   75% {
+       background-position: 75% 100%;}
+   90% {
+       background-position: 100% 100%;
+   }
+   100% {
+       background-position: 0%
+       25%%;
+   }
